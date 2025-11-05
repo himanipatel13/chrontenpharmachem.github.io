@@ -1,6 +1,8 @@
-# GitHub Website Starter
+# Chronten Pharmachem Website
 
-A minimal static site you can deploy with **GitHub Pages** in minutes.
+Professional website for Chronten Pharmachem - a pharmaceutical company specializing in manufacturing intermediate products.
+
+**Founded by:** Dr. Nischay Patel & Charmil Patel
 
 ## Quick start
 

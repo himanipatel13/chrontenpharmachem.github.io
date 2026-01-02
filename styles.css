@@ -238,17 +238,21 @@ ul, ol {
 
 .logo-name {
   font-family: var(--font-display);
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: var(--dark-800);
+  font-size: 1.6rem;
+  font-weight: 800;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   letter-spacing: -0.02em;
 }
 
 .logo-tagline {
   font-size: 0.7rem;
-  color: var(--gray-500);
-  letter-spacing: 0.05em;
+  color: var(--dark-600);
+  letter-spacing: 0.08em;
   text-transform: uppercase;
+  font-weight: 600;
 }
 
 /* Mobile Menu Button */

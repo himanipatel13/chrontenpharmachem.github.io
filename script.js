@@ -310,7 +310,7 @@ function showFormMessage(message, type) {
 // Scroll Animations
 // ========================================
 function initScrollAnimations() {
-  const animatedElements = document.querySelectorAll('.section-header, .product-card, .capability-item, .about-feature, .leader-card, .capability-card, .contact-item, .quality-checklist li');
+  const animatedElements = document.querySelectorAll('.section-header, .product-card, .capability-item, .about-feature, .leader-card, .capability-card, .contact-item, .quality-checklist li, .portfolio-category');
 
   if (animatedElements.length === 0) return;
 

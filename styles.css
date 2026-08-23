@@ -335,6 +335,87 @@ nav a:hover {
   font-size: 0.95rem;
 }
 
+/* Product Portfolio Grid */
+.product-list-title {
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 2px solid var(--light-gray);
+}
+
+.product-list-intro {
+  color: var(--muted);
+}
+
+.product-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1.5rem 1fr 1.5rem 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+@supports not (display: grid) {
+  .product-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 1.5rem -0.75rem 0;
+  }
+  .product-item {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 280px;
+    flex: 1 1 280px;
+    margin: 0.75rem;
+  }
+}
+
+.product-item {
+  background: var(--white);
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--light-gray);
+  border-top: 4px solid var(--accent);
+  box-shadow: var(--shadow);
+  -webkit-transition: -webkit-transform 0.3s ease, box-shadow 0.3s ease;
+  -moz-transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-item:hover {
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.product-item h4 {
+  color: var(--primary-dark);
+  font-size: 1.05rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.product-item p {
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+}
+
+.product-item .cas {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--primary);
+  background: var(--primary-light);
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+}
+
 /* Quality List */
 .quality-list {
   list-style: none;

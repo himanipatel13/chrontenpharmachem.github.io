@@ -1957,3 +1957,24 @@ ul, ol {
   white-space: nowrap;
   border: 0;
 }
+
+/* FAQ */
+.faq-panel {
+  margin-top: 2.5rem;
+}
+
+.faq-panel .category-head {
+  margin-bottom: 0.75rem;
+}
+
+.faq-panel .category-head h4 {
+  text-transform: none;
+  font-size: 1.05rem;
+  letter-spacing: 0;
+  color: var(--dark-900);
+}
+
+.faq-answer {
+  color: var(--dark-700);
+  line-height: 1.7;
+}
